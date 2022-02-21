@@ -1,5 +1,6 @@
 list=[ ]
-N = int(input("ievadi pedejo saistamo: "))
-for x in range(9,N+1):
+n = int(input("ievadi skaitu: "))
+for x in range(1, 2*n, 2):
   list.append(x)
-print(sum(list))
+  list1=sum(list)
+print(list1)
