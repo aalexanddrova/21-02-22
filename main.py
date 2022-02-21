@@ -1,18 +1,5 @@
-listgood = [ ]
-listmid = [ ]
-listbad = [ ]
-N = int(input("cik ir skolenu? "))
-for x in range(N):
-  x = int(input("ievadi visu prieksmetu videjo atzimi: "))
-  if x > 8:
-    listgood.append(x)
-  if 3 < x < 9:
-    listmid.append(x)
-  if x < 4:
-    listbad.append(x)
-print("teicamnieku ir: ")
-print(len(listgood))
-print("viduveji macas: ")
-print(len(listmid))
-print("nesekmigo skolenu ir: ")
-print(len(listbad))
+m = int(input("ievadi no kurs pakapes jaaprekina: "))
+N = int(input("ievadi lidz kurai pakapei jaaprekina: "))
+for i in range(m,N+1):
+  n = pow(2,i)
+  print(n)
