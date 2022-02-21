@@ -1,7 +1,4 @@
-list = [ ]
-n = int(input("Cik atzimes vina sanema?"))
-for i in range(n):
-  ele=int(input())
-  list.append(ele)
-list1=sum(list)/len(list)
-print(list1)
+x = range(1,7)
+for elem in x:
+  n = pow(3,elem)
+  print(n)
