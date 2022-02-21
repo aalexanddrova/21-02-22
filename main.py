@@ -1,7 +1,4 @@
-text=input("ievadi vardu:")
-for elem in range(1,23):
-  play=22*(text+" ")
-  if elem>+0:
-    print(text)
-    print(elem,text)
-    print(play)
+x = range(15,2,-1)
+for elem in x:
+  n = pow(elem,3)
+  print(n)
